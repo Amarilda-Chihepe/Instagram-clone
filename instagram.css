@@ -1,0 +1,248 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgba(128, 128, 128, 0.041);
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.486);
+}
+
+.header, .header-1{
+    display: flex;  
+    align-items: center;
+}
+
+.header{
+    height: 60px;
+    justify-content: space-around;
+    width: 1100px;
+}
+
+.logo h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+#search{
+    width: 250px;
+    height: 15px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color: rgba(189, 184, 184, 0.24);
+    padding: 10px;
+    font-size: 17px;
+    
+}
+
+.icones img{
+    width: 24px;
+    height: 24px;
+    margin-left: 20px;
+}
+
+#me{
+    border-radius: 12px;
+}
+
+.section-1{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.stories{
+    height: 115px;
+    width: 480px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid rgba(128, 128, 128, 0.486);
+    display: flex;
+}
+
+
+.story-img{
+    width: 51px;
+    height: 51px;
+    border-radius: 25px;
+    border: 2px solid rgb(226, 95, 95);
+    margin-top: 15px;
+    text-align: center;
+}
+
+.story{
+    width: 70px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.story p{
+    line-height: 7px;
+    font-size: 12px;
+}
+.story img, .my-profile img{ 
+    width: 49px;
+    height: 49px;
+    border-radius: 24.5px;
+    border: 1px solid white;
+}
+
+.name-photo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+.perfil-photo{
+    width: 44px;
+    height: 44px;
+    border-radius: 22px;
+}
+
+.updates{
+    background-color: white;
+    width: 480px;
+    border: 1px solid rgba(128, 128, 128, 0.486);
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.name{
+    margin-left: 10px;
+}
+
+.photo-publication img{
+    width: 480px;
+    height: 500px;
+}
+
+.about-likes, .description, .user-comment, .suggest{
+    display: flex;
+    align-items: center;
+}
+
+.about-likes img{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+}
+
+.like-icones{
+    display: flex;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    padding-top: 15px;
+}
+
+.like-icones img{
+    width: 25px;
+    height: 25px;
+    margin-right: 15px;
+}
+.comment, .like-icones, .suggest{
+    justify-content: space-between;
+}
+
+.description img{
+    width: 12px;
+    height: 12px;
+    margin-right: 10px;
+}
+.photo-info p, a{
+    font-size: 12.5px;
+}
+
+.photo-info, .like-icones{
+   padding-left: 20px;
+}
+
+.photo-info a{
+    margin-right: 10px;
+}
+
+.about-likes p{
+    margin-right: 5px;
+}
+
+.add-comment{
+    border-top: 1px solid rgba(128, 128, 128, 0.486);
+    display: flex;
+    padding: 15px;
+    margin-left: -20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#comment{
+    border: none;
+}
+
+.perfil{
+    margin-top: 80px;
+    width: 330px;
+    margin-left: 40px;
+
+}
+
+.my-profile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.my-photo{
+    display: flex;
+    align-items: center;
+    
+}
+
+.my-profile img{
+    margin-right: 30px;
+}
+
+.my-profile p{
+    font-size: 12px;
+    line-height: 7px;
+}
+
+.suggest p{
+    font-size: 14px;
+    font-weight: bold;
+    color: grey;
+}
+
+.suggest a{
+    font-size: 14px;
+}
+
+#sug{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    margin-right: 15px;
+}
+
+.footer{
+    color: gray;
+    font-size: 12px;
+    margin-right: 30px;
+}
+
+.footer p{
+    margin-top: 30px;
+}
+
+
